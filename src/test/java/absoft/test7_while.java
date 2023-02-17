@@ -11,12 +11,18 @@ public class test7_while {
 
         int i = from;
         while (i <= to) {
-            System.out.println(i);
-            i++;
+            System.out.println(i++);
+            if (i == 2 || i == 6 || i == 10 ) {
+                System.out.println(i++ + " - some cool text");
             }
-        System.out.println(i == 2 ? i + " - some cool text" : "");
         }
     }
+}
+
+
+
+
+
 
 
 
