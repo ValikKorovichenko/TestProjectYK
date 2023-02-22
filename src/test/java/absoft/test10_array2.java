@@ -7,6 +7,21 @@ package absoft;
 Выведите в стобик все елементы массива (каждое имя должно быть с новой строки)
  */
 
+import java.util.Arrays;
+
 public class test10_array2 {
+    public static void main(String[] args) {
+        //display source data
+        String[] array = {"John", "Dan", "Ashe", "Carl", "Bill"};
+
+        //processing
+        Arrays.sort(array);
+        String[] newArray = Arrays.copyOf(array, array.length + 1);
+        for (int i = 0; i < array.length + 1; i++) {
+            newArray[newArray.length - 1] = "Stan";
+            System.out.println(newArray[i]);
+        }
+
+    }
 
 }
