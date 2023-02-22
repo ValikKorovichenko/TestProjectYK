@@ -6,6 +6,19 @@ C помощью цикла записать в массив числа от 1 �
  */
 
 
-public class test9_array {
+import java.util.Arrays;
 
+public class test9_array {
+    public static void main(String[] args) {
+        //read source data
+        int[] array = new int[10];
+
+        //processing
+        for (int i = 0; i <= 9; i++) {
+            array[i] = i+1;
+        }
+
+        //display result
+        System.out.println(Arrays.toString(array));
+    }
 }
