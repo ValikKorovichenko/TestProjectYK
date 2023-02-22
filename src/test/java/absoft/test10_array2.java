@@ -19,6 +19,8 @@ public class test10_array2 {
         String[] newArray = Arrays.copyOf(array, array.length + 1);
         for (int i = 0; i < array.length + 1; i++) {
             newArray[newArray.length - 1] = "Stan";
+
+            //display result
             System.out.println(newArray[i]);
         }
 
