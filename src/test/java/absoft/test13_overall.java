@@ -44,6 +44,7 @@ public class test13_overall {
 }
 class ProductCalculator {
     public static double calculateTotal(double price, int qty) {
+
         return price * qty;
     }
 }
