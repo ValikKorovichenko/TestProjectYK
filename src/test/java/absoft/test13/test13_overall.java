@@ -1,4 +1,4 @@
-package absoft;
+package absoft.test13;
 
 /*
 Напишите программу в которой:
@@ -40,11 +40,5 @@ public class test13_overall {
         for (int i = 0; i < 5; i++) {
             System.out.println(productNames[i] + " | " + totals[i]);
         }
-    }
-}
-class ProductCalculator {
-    public static double calculateTotal(double price, int qty) {
-
-        return price * qty;
     }
 }
