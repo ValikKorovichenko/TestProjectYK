@@ -11,7 +11,7 @@ import java.util.Arrays;
 
 public class test10_array2 {
     public static void main(String[] args) {
-        //display source data
+        ///read source data
         String[] array = {"John", "Dan", "Ashe", "Carl", "Bill"};
 
         //processing
